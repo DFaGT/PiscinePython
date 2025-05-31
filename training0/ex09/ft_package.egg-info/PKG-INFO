@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: ft_package
+Version: 0.0.1
+Summary: A tiny example package that counts occurrences in a list.
+Author-email: Your Name <you@example.com>
+License: 
+        ---
+        
+        ## LICENSE  (MIT)
+        ```txt
+        MIT License
+        
+        Copyright (c) 2025 Your Name
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        […以下、省略せずに全文貼り付けてください…]
+        
+Project-URL: Homepage, https://github.com/your-name/ft_package
+Keywords: example,education,count,list
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# ft_package
+
+`ft_package` は、リスト内で指定した要素が何回登場するかを数える
+シンプルな関数を提供する Python パッケージです。
+
+## インストール方法
+
+1. ビルド済みの配布ファイル（wheel または sdist）がある場合:
+   ```bash
+   pip install ./dist/ft_package-0.0.1-py3-none-any.whl
